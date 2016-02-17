@@ -19,15 +19,15 @@
 
   pageView.viewSection = function(activePage){
     $('nav').show();
-    $('#' + activePage).show(siblings).hide();
+    $('#' + activePage).show().siblings().hide();
 
   };
 });
 
-pageView.initPage = function(activePage){
+  pageView.initPage = function(activePage){
     pageView.viewSection(activePage);
     pageView.hamburgerClick();
   };
 
   module.pageView = pageView;
-}(window));
+(window);
