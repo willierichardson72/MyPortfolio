@@ -1,0 +1,17 @@
+h1 {
+  color: green;
+  font-size: 3em;
+  text-align: center;
+}
+li {
+  color: purple;
+  font-size:1.5em;
+  text-align: center;
+}
+img.large {
+  width: 225px;
+  height:150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
